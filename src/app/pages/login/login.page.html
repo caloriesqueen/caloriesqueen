@@ -1,0 +1,19 @@
+<ion-header no-border>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center ion-padding">
+  <img class="logo" src="/assets/images/png/c.png">
+  <h1>Login to <span>Coachify</span></h1>
+  <h6 class="ion-margin-bottom">we'll text you for confirmation</h6>
+  <ion-input placeholder="Enter Mobile NO" class="ion-margin"></ion-input>
+  <label class="ion-margin-horizontal">OR</label>
+  <ion-input placeholder="Enter Email" class="ion-margin"></ion-input>
+  <ion-button color="primary" expand="block" class="ion-margin login" style="border-radius:25px"
+    (click)="router.navigate(['/otp']);">Login</ion-button>
+  <div class="social ">
+    <ion-icon name="logo-google" size="large"></ion-icon>
+    <ion-icon name="logo-facebook" size="large"></ion-icon>
+  </div>
+</ion-content>

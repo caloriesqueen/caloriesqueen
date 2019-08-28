@@ -1,0 +1,44 @@
+<ion-content>
+  <h2 class="ion-text-center">Welcome to</h2>
+  <h1 class="ion-text-center">We<ion-text class="color-primary">Fit</ion-text>
+  </h1>
+  <ion-slides class="main-slide" pager="true" [options]="slideOpts2">
+    <ion-slide>
+      <div class="wraper">
+        <div class="thumb-img">
+          <ion-img src="/assets/images/png/user.svg"></ion-img>
+        </div>
+        <h1>Track your lifestyle</h1>
+        <p>
+          Track your weight, activity water and food calories to meet your fitness goal
+        </p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+        <div class="wraper">
+          <div class="thumb-img">
+            <ion-img src="/assets/images/png/user.jpg"></ion-img>
+          </div>
+          <h1>Be Fit, Be Healthy</h1>
+          <p>
+            Track your weight, activity water and food calories to meet your fitness goal
+          </p>
+        </div>
+      </ion-slide>
+      <ion-slide>
+          <div class="wraper">
+            <div class="thumb-img">
+              <ion-img src="/assets/images/png/user.jpg"></ion-img>
+            </div>
+            <h1>Make Fitness Fun</h1>
+            <p>
+              Track your weight, activity water and food calories to meet your fitness goal
+            </p>
+          </div>
+        </ion-slide>
+  </ion-slides>
+  <div class="bottom-fixed">
+    <ion-button color="primary" size="default" expand="block" class="started" no-shadow (click)="router.navigate(['/notification']);">Get Started
+    </ion-button>
+  </div>
+</ion-content>

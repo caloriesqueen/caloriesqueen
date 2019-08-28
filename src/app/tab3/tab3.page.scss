@@ -1,0 +1,21 @@
+.wrapper{
+    margin-top:40px;
+    position: relative;
+    z-index: 2;
+  }
+  .extra-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 200px;
+    width: 100%;
+    background: var(--ion-color-primary);
+  }
+
+  ion-card {
+    background-color: white;
+  }
+  ion-col h2{
+      padding-top:1px;
+  }

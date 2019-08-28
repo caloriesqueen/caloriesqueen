@@ -1,0 +1,21 @@
+ion-card{
+    color:white;
+    background-size: cover !important;
+    h1{
+        color:white;
+    }
+    ion-card-subtitle{
+        color: white;
+    }
+    width: 100%;
+    
+}
+.main-card{
+    width: inherit;
+    background-size: cover !important;
+}
+ion-slides{
+    width: 80%;
+    margin-left:inherit;
+    overflow: visible;
+}

@@ -1,0 +1,31 @@
+.theme-color-red {
+  color: var(--ion-color-themeRed);
+}
+.theme-color-blue {
+  color: royalblue;
+}
+.theme-color-orange {
+  color: #fa884c;
+}
+ion-card ion-icon {
+  background: #f5f5f5;
+  border-radius: 100%;
+  padding: 8px;
+}
+ion-card {
+  background-color: white;
+}
+.wrapper{
+  margin-top:40px;
+  position: relative;
+  z-index: 2;
+}
+.extra-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 200px;
+  width: 100%;
+  background: var(--ion-color-primary);
+}

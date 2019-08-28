@@ -1,0 +1,21 @@
+<ion-content color="primary">
+  <div class="ion-text-center ion-padding main-content">
+    <p>1/5</p>
+    <h1>Your Gender</h1>
+    <p>Please enter your gender. it's important for calorie budget - female bodies need fewer calories</p>
+    <img src="/assets/images/png/gender.png">
+  </div>
+  <div class="bottom-fixed">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button color="light" expand="block" class="started" no-shadow>Male</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button color="light" expand="block" class="started" no-shadow>Female</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row><ion-col><ion-button color="light" expand="block" class="started" no-shadow (click)="router.navigate(['/height']);">Next</ion-button></ion-col></ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -1,0 +1,27 @@
+ion-card {
+    background-color: white;
+    h4{
+        color: #000;
+    }
+    h2{
+        color: #000;
+    }
+    ion-card-content{
+        padding-bottom: 0;
+    }
+  }
+  .theme-color-red {
+    color: var(--ion-color-themeRed);
+  }
+  .theme-color-blue {
+    color: royalblue;
+  }
+  .theme-color-orange {
+    color: #fa884c;
+  }
+  .icon-add{
+      margin-top:5px;
+    background-color: var(--ion-color-themeRed);
+    color: #fff;
+    border-radius:100%;
+  }

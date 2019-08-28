@@ -1,0 +1,30 @@
+.messages{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+ion-item.left {
+  ion-text {
+    background-color: white;
+    border-radius: 0 15px 15px 15px;
+  }
+}
+ion-item.right {
+  ion-text {
+    border-radius: 15px 0 15px 15px;
+    background-color: var(--ion-color-theme);
+    color: white;
+  }
+}
+ion-text {
+  max-width: 70%;
+  padding: 10px;
+}
+span.time{
+    clear: both;
+    display: block;
+    font-weight: lighter;
+    font-size: 10px;
+}
+span.time::before{
+    content: "";
+}

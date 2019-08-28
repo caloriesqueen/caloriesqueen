@@ -1,0 +1,134 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Today
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+    <div class="extra-back" color="primary"></div>
+    <div class="wrapper">
+  <ion-card (click)="router.navigate(['/calories']);">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-icon name="flame" size="large" class="theme-color-red"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <ion-card-title>Calories</ion-card-title>
+            <ion-card-subtitle>690 of 1200</ion-card-subtitle>
+          </ion-col>
+          <ion-col>
+            <circle-progress
+              [backgroundPadding] = "0"
+              [radius] = "20"
+              [space] = "-5"
+              [maxPercent] = "100"
+              [percent]="85"
+              [outerStrokeWidth] = "5"
+              [outerStrokeColor] = "'#f83d7f'"
+              [innerStrokeColor] = "'#e7e8ea'"
+              [innerStrokeWidth] = "5"
+              [animation] = "false"
+              [animationDuration]="300"
+              [showUnits] = "false"
+              [showTitle]="false"
+
+            ></circle-progress>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card (click)="router.navigate(['/water']);">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-icon name="wine" size="large" class="theme-color-blue"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <ion-card-title>Water</ion-card-title>
+            <ion-card-subtitle>3 out of 10 glass consumed</ion-card-subtitle>
+          </ion-col>
+          <ion-col>
+            <circle-progress
+
+              [backgroundPadding] = "0"
+              [radius] = "20"
+              [space] = "-5"
+              [maxPercent] = "100"
+              [percent]="85"
+              [outerStrokeWidth] = "5"
+              [outerStrokeColor] = "'royalblue'"
+              [innerStrokeColor] = "'#e7e8ea'"
+              [innerStrokeWidth] = "5"
+              [animationDuration]="300"
+              [showUnits] = "false"
+              [showTitle]="false"
+              
+
+            ></circle-progress>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card (click)="router.navigate(['/steps']);">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+              <ion-icon name="walk" size="large" class="theme-color-orange"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <ion-card-title>Steps</ion-card-title>
+            <ion-card-subtitle>690 of 1200</ion-card-subtitle>
+          </ion-col>
+          <ion-col>
+              <circle-progress
+
+              [backgroundPadding] = "0"
+              [radius] = "20"
+              [space] = "-5"
+              [maxPercent] = "100"
+              [percent]="85"
+              [outerStrokeWidth] = "5"
+              [outerStrokeColor] = "'#FA884C'"
+              [innerStrokeColor] = "'#e7e8ea'"
+              [innerStrokeWidth] = "5"
+              [animationDuration]="300"
+              [showUnits] = "false"
+              [showTitle]="false"
+
+            ></circle-progress>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Goal Weight:80KG</ion-card-subtitle>
+      <ion-card-title>WOW! You've lost 6 kg</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-progress-bar color="primary" value="0.5"></ion-progress-bar>
+      <ion-grid>
+        <ion-row>
+          <ion-col>80kg</ion-col>
+          <ion-col class="ion-text-end">60kg</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</div>
+</ion-content>

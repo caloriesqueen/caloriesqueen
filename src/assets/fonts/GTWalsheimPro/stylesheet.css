@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'GTWalsheimProRegular';
+    src: url('GTWalsheimProRegular.woff2') format('woff2'),
+        url('GTWalsheimProRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTWalsheimProLight';
+    src: url('GTWalsheimProLight.woff2') format('woff2'),
+        url('GTWalsheimProLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTWalsheimProBold';
+    src: url('GTWalsheimProBold.woff2') format('woff2'),
+        url('GTWalsheimProBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    font-family: GTWalsheimProLight;
+}
+h1,h2,h3,h4,ion-title{
+    font-family: GTWalsheimProBold;
+}
+h5,h6, ion-card-title, .messages{
+    font-family: GTWalsheimProRegular;
+}

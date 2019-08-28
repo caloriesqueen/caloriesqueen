@@ -1,0 +1,64 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      John Doe
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-avatar>
+            <img src="https://i.imgur.com/zeTuWYD.jpg">
+          </ion-avatar>
+        </ion-col>
+        <ion-col size="9">
+          <div>John Doe</div>
+          <div>Free Membership</div>
+          <div>buy Pro</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  <ion-card>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Weight<h2>80kg</h2>
+        </ion-col>
+        <ion-col class="ion-text-center">Height<h2>6 feet</h2>
+        </ion-col>
+        <ion-col class="ion-text-end">Age<h2>21 years</h2>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/reminders']);">Reminders
+      </ion-button></ion-col>
+      <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/recipies']);">Recipies
+      </ion-button></ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/free-credit']);">Free Credit
+        </ion-button></ion-col>
+        <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/before-after']);">Before and After
+        </ion-button></ion-col>
+
+      </ion-row>
+      <ion-row>
+          <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/your-process']);">Your Process
+          </ion-button></ion-col>
+          <ion-col><ion-button color="primary" expand="block" no-shadow (click)="router.navigate(['/chat2']);">Chat
+          </ion-button></ion-col>
+          
+        </ion-row>
+  </ion-grid>
+</ion-content>

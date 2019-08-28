@@ -1,0 +1,21 @@
+<ion-header no-border>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center ion-padding">
+  <img src="/assets/images/png/mobile.png">
+  <h2>What's the code?</h2>
+  <h6>enter the code sent to your mobile.</h6>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col><ion-input></ion-input></ion-col>
+      <ion-col><ion-input></ion-input></ion-col>
+      <ion-col><ion-input></ion-input></ion-col>
+      <ion-col><ion-input></ion-input></ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-button color="primary" class="ion-margin login" style="border-radius:25px"
+    (click)="router.navigate(['/information']);">Submit</ion-button>
+</ion-content>

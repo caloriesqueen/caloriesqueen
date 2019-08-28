@@ -1,0 +1,21 @@
+.bottom-fixed{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right:0;
+}
+
+.bottom-fixed ion-button{
+    margin:10px 20px;
+    --border-radius:25px;
+}
+.bell {
+    margin-top:20px;
+    color: var(--ion-color-themeRed);
+    background: white;
+    padding:10px;
+    font-size:300%;
+    zoom:2.5;
+    border-radius:100%;
+    margin-bottom:5px;
+  }

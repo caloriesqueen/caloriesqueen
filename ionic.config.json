@@ -1,0 +1,7 @@
+{
+  "name": "coachify",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
